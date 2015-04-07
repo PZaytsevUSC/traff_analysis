@@ -1,0 +1,11 @@
+1. Type make to compile
+2. To run use: ./traffana -v [-r filename] [-i interface] [-T epoch] [-w filename] [-z {2|5}]
+3. To quit - control + c
+
+Filename is pcap file, interface is some ethernet interface to sniff upon, epoch is any time value
+
+Assumptions:-
+1. If you don’t read a file, provide a valid interface.
+2. If you skip epoch option, it opts to 1 sec.
+3. If you don’t write to anywhere, it reads output to the screen. 
+
